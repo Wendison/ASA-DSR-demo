@@ -1,2 +1,2 @@
 # DSR-EPC-ASA-demo
-Demo for dysarthric speech reconstruction
+Audio samples at: https://wendison.github.io/DSR-EPC-ASA-demo/
