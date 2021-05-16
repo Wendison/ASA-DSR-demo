@@ -9,7 +9,7 @@ body {
   font-size: 15px;
 }
 audio {
-  width: 100px;
+  width: 200px;
   margin-right: 10px;
 }
 
@@ -21,10 +21,13 @@ audio {
 
     <strong><p class="toc_title", style="font-size:30px">Contents</p></strong>
       <div id="toc_container">
-         <ul>
+         <ol>
             <li><strong><a href="#comparison"><font size="5">1. Reconstruction performance of different methods</font></a></li></strong>
+              <ul>
+                <li><strong><a href="#com-M05"><font size="4">M05 (dysarthria-moderate)</font></a></li></strong>
+              </ul>
             <li><strong><a href="#ablation"><font size="5">2. Impact of phoneme duration and F0</font></a></li></strong>
-         </ul>
+         </ol>
       </div>
 
   <hr style="height:3px;border:none;border-top:5px solid #555555;" />
@@ -39,8 +42,10 @@ audio {
         <li><strong>SA-VC:</strong> A system based on SV-VC, where speaker encoder is fine-tuned via speaker adaptation (SA).</li>
         <li><strong>ASA-VC:</strong> A system based on SV-VC, where speaker encoder is fine-tuned via proposed adversarial speaker adaptation (ASA).</li>
     </ul>
-
+    
+    <a name="com-M05">
     <h3>M05 (dysarthria-moderate):</h3>
+    </a>
     <table border="1">
     <tr>
     <th>No.</th>
