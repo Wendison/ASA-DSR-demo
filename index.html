@@ -64,7 +64,10 @@ toc_container {
         <li><strong>SA-DSR:</strong> A system based on SV-DSR, where speaker encoder is fine-tuned only via speaker adaptation (SA).</li>
         <li><strong>ASA-DSR (proposed):</strong> proposed system based on SV-DSR, where speaker encoder is fine-tuned via proposed adversarial speaker adaptation (ASA).</li>
     </ul>
-    
+    <li>Some observations:</li>
+    <ul>
+        <li>For E2E-VC and SV-DSR, the reconstructed speech may not effectively preserve the original speaker identity, and the gender may be even changed in some cases, listen to <a href="#F02-No.2">F02-No.2</a>, <a href="#F02-No.3">F02-No.3</a>, <a href="#F02-No.4">F02-No.4</a>, <a href="#F02-No.5">F02-No.5</a>, <a href="#M07-No.1">M07-No.1</a>, <a href="#M07-No.15">M07-No.15</a>, <a href="#F04-No.1">F04-No.1</a>, <a href="#F04-No.6">F04-No.6</a>, <a href="#F04-No.7">F04-No.7</a>, <a href="#F04-No.8">F04-No.8</a>, <a href="#F04-No.10">F04-No.10</a>, <a href="#F04-No.12">F04-No.12</a>,</li>
+    </ul>
     <!--<a href="https://ieeexplore.ieee.org/abstract/document/9054596?casa_token=Ric4_Cbaj9YAAAAA:mhVTEvrHNGaB2e3NlhqXrLZ0H0jCdDCR2UMTJoYrEX69Hz14fuoWEkybb7fgygLH5bgoQqSp3w">[1] Disong Wang, Jianwei Yu, Xixin Wu, Songxiang Liu, Lifa Sun, Xunying Liu, Helen Meng, "End-to-end voice conversion via cross-modal knowledge distillation for dysarthric speech reconstruction", IEEE ICASSP 2020 (pp. 7744-7748)</a>-->
     
     <a name="com-F02">
@@ -112,7 +115,7 @@ toc_container {
     </tr>
 
     <tr>
-    <td>2</td>
+    <td><div id="F02-No.2">2</div></td>
     <td>
     <audio controls>
     <source src="./audios/comparison/F02/F02_B2_UW35_M8_ATROCIOUS_original.wav" type="audio/wav">
